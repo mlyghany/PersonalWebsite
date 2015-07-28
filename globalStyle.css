@@ -1,0 +1,182 @@
+/*Element Wide Styles*/
+
+body {
+    font-family: 'Droid Sans', sans-serif;
+    margin: 0;
+}
+
+nav {
+    background: #FAFAFA;
+    color: #333333;
+}
+
+section {
+    text-align: center;
+    padding: 2% 10%;
+}
+
+h1 {
+    font-size: 40pt;
+    font-family: "Aharoni", "Droid Sans", sans-serif;
+	padding: 0;
+	margin: 15px;
+}
+
+/*Class Wide Styles*/
+
+.navigationBar {
+    list-style-type: none;
+    margin: 0;
+}
+
+.navItem {
+    display: inline-block;
+}
+
+.navItem a {
+    line-height: 59px;
+    display: block;
+    padding: 0 15px;
+    
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+.navItem  a:hover {
+    color: #FAFAFA;
+    background: #F7941E;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: bottom;
+    padding-right: 20px;
+}
+
+.centerImage {
+    background-image: 
+    background-size: 100%;
+    background-position: top left;
+    background-repeat: no-repeat;
+	
+}
+
+.whiteSection {
+    background: #FAFAFA;
+    color: #333333;
+}
+
+.graySection {
+    background: #333333;
+    color: #FAFAFA;
+}
+
+.grayHeader {
+    color: #7F7F7F;
+	display: inline-block;
+}
+
+.whiteHeader {
+    color: #FAFAFA;
+	display: inline-block;
+}
+
+.blueHeader {
+    color: #00BAFA;
+	display: inline-block;
+}
+
+.orangeHeader {
+    color: #F7941E;
+	display: inline-block;
+}
+
+.buttonLink {
+    display: inline-block;
+    border-radius: 25px;
+    
+    padding: 20px; 
+    width: 300px;
+    line-height: 30px; 
+	
+}
+
+.buttonLink:hover {
+    background: #00BAFA;
+	opacity: 0.9;
+    color: #FAFAFA;
+}
+
+.contactEntry {
+	display: inline-block;
+	padding: 20px;
+}
+
+.contactDetail {
+	display: none;
+}
+
+.contactDetailLoaded {
+	display: inline-block;
+	line-height: 64px;
+	padding-left: 15px;
+	vertical-align: 45%;
+}
+
+.profilePicture {
+	visibility: hidden;
+	opacity: 0;
+	-o-transition:visibility ease-in 0s, opacity ease-in 1s, background ease-in 1s;
+	-ms-transition:visibility ease-in 0s, opacity ease-in 1s, background ease-in 1s;
+	-webkit-transition:visibility ease-in 0s, opacity ease-in 1s, background ease-in 1s;
+	transition:visibility ease-in 0s, opacity ease-in 1s, background ease-in 1s;
+	
+	width: 200px;
+	height: 200px;
+	
+	display: inline-block;
+	background-image: url('img/banner2.png');
+	background-size: 200%;
+	
+	margin: 20px;
+	
+}
+
+
+.profilePictureLoaded {
+	visibility: visible;
+	opacity: 1;
+	background-size: 400px 200px;
+	background-position: center center;
+	
+	border-radius: 150px;
+}
+/*ID*/
+
+#cv {	
+	color: #333333;
+	
+	-o-transition:1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+	transition: 1s;
+}
+#cv a{
+	color: #333333;
+    font-size: 15pt;
+}
+
+#cv.loaded {
+	background-image: url('img/cv.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+	color: #FAFAFA;
+}
+
+#cv.loaded a{
+	color: #FAFAFA;
+    font-size: 15pt;
+}
